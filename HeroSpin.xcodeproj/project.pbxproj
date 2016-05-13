@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD1A07791CE5F12B00851ACF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A07781CE5F12B00851ACF /* main.m */; };
+		FD1A077C1CE5F12B00851ACF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A077B1CE5F12B00851ACF /* AppDelegate.m */; };
+		FD1A077F1CE5F12B00851ACF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A077E1CE5F12B00851ACF /* ViewController.m */; };
+		FD1A07821CE5F12B00851ACF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1A07801CE5F12B00851ACF /* Main.storyboard */; };
+		FD1A07841CE5F12B00851ACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD1A07831CE5F12B00851ACF /* Assets.xcassets */; };
+		FD1A07871CE5F12B00851ACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1A07851CE5F12B00851ACF /* LaunchScreen.storyboard */; };
+		FD1A07921CE5F12B00851ACF /* HeroSpinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A07911CE5F12B00851ACF /* HeroSpinTests.m */; };
+		FD1A079D1CE5F12B00851ACF /* HeroSpinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A079C1CE5F12B00851ACF /* HeroSpinUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD1A078E1CE5F12B00851ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD1A076C1CE5F12B00851ACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD1A07731CE5F12B00851ACF;
+			remoteInfo = HeroSpin;
+		};
+		FD1A07991CE5F12B00851ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD1A076C1CE5F12B00851ACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD1A07731CE5F12B00851ACF;
+			remoteInfo = HeroSpin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD1A07741CE5F12B00851ACF /* HeroSpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroSpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1A07781CE5F12B00851ACF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD1A077A1CE5F12B00851ACF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD1A077B1CE5F12B00851ACF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD1A077D1CE5F12B00851ACF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD1A077E1CE5F12B00851ACF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD1A07811CE5F12B00851ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD1A07831CE5F12B00851ACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD1A07861CE5F12B00851ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD1A07881CE5F12B00851ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD1A078D1CE5F12B00851ACF /* HeroSpinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroSpinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1A07911CE5F12B00851ACF /* HeroSpinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroSpinTests.m; sourceTree = "<group>"; };
+		FD1A07931CE5F12B00851ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD1A07981CE5F12B00851ACF /* HeroSpinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroSpinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1A079C1CE5F12B00851ACF /* HeroSpinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroSpinUITests.m; sourceTree = "<group>"; };
+		FD1A079E1CE5F12B00851ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD1A07711CE5F12B00851ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1A078A1CE5F12B00851ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1A07951CE5F12B00851ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD1A076B1CE5F12B00851ACF = {
+			isa = PBXGroup;
+			children = (
+				FD1A07761CE5F12B00851ACF /* HeroSpin */,
+				FD1A07901CE5F12B00851ACF /* HeroSpinTests */,
+				FD1A079B1CE5F12B00851ACF /* HeroSpinUITests */,
+				FD1A07751CE5F12B00851ACF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD1A07751CE5F12B00851ACF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD1A07741CE5F12B00851ACF /* HeroSpin.app */,
+				FD1A078D1CE5F12B00851ACF /* HeroSpinTests.xctest */,
+				FD1A07981CE5F12B00851ACF /* HeroSpinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD1A07761CE5F12B00851ACF /* HeroSpin */ = {
+			isa = PBXGroup;
+			children = (
+				FD1A077A1CE5F12B00851ACF /* AppDelegate.h */,
+				FD1A077B1CE5F12B00851ACF /* AppDelegate.m */,
+				FD1A077D1CE5F12B00851ACF /* ViewController.h */,
+				FD1A077E1CE5F12B00851ACF /* ViewController.m */,
+				FD1A07801CE5F12B00851ACF /* Main.storyboard */,
+				FD1A07831CE5F12B00851ACF /* Assets.xcassets */,
+				FD1A07851CE5F12B00851ACF /* LaunchScreen.storyboard */,
+				FD1A07881CE5F12B00851ACF /* Info.plist */,
+				FD1A07771CE5F12B00851ACF /* Supporting Files */,
+			);
+			path = HeroSpin;
+			sourceTree = "<group>";
+		};
+		FD1A07771CE5F12B00851ACF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD1A07781CE5F12B00851ACF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD1A07901CE5F12B00851ACF /* HeroSpinTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD1A07911CE5F12B00851ACF /* HeroSpinTests.m */,
+				FD1A07931CE5F12B00851ACF /* Info.plist */,
+			);
+			path = HeroSpinTests;
+			sourceTree = "<group>";
+		};
+		FD1A079B1CE5F12B00851ACF /* HeroSpinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD1A079C1CE5F12B00851ACF /* HeroSpinUITests.m */,
+				FD1A079E1CE5F12B00851ACF /* Info.plist */,
+			);
+			path = HeroSpinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD1A07731CE5F12B00851ACF /* HeroSpin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD1A07A11CE5F12B00851ACF /* Build configuration list for PBXNativeTarget "HeroSpin" */;
+			buildPhases = (
+				FD1A07701CE5F12B00851ACF /* Sources */,
+				FD1A07711CE5F12B00851ACF /* Frameworks */,
+				FD1A07721CE5F12B00851ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroSpin;
+			productName = HeroSpin;
+			productReference = FD1A07741CE5F12B00851ACF /* HeroSpin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD1A078C1CE5F12B00851ACF /* HeroSpinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD1A07A41CE5F12B00851ACF /* Build configuration list for PBXNativeTarget "HeroSpinTests" */;
+			buildPhases = (
+				FD1A07891CE5F12B00851ACF /* Sources */,
+				FD1A078A1CE5F12B00851ACF /* Frameworks */,
+				FD1A078B1CE5F12B00851ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD1A078F1CE5F12B00851ACF /* PBXTargetDependency */,
+			);
+			name = HeroSpinTests;
+			productName = HeroSpinTests;
+			productReference = FD1A078D1CE5F12B00851ACF /* HeroSpinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD1A07971CE5F12B00851ACF /* HeroSpinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD1A07A71CE5F12B00851ACF /* Build configuration list for PBXNativeTarget "HeroSpinUITests" */;
+			buildPhases = (
+				FD1A07941CE5F12B00851ACF /* Sources */,
+				FD1A07951CE5F12B00851ACF /* Frameworks */,
+				FD1A07961CE5F12B00851ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD1A079A1CE5F12B00851ACF /* PBXTargetDependency */,
+			);
+			name = HeroSpinUITests;
+			productName = HeroSpinUITests;
+			productReference = FD1A07981CE5F12B00851ACF /* HeroSpinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD1A076C1CE5F12B00851ACF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Riddhi Ojha";
+				TargetAttributes = {
+					FD1A07731CE5F12B00851ACF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FD1A078C1CE5F12B00851ACF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FD1A07731CE5F12B00851ACF;
+					};
+					FD1A07971CE5F12B00851ACF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FD1A07731CE5F12B00851ACF;
+					};
+				};
+			};
+			buildConfigurationList = FD1A076F1CE5F12B00851ACF /* Build configuration list for PBXProject "HeroSpin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD1A076B1CE5F12B00851ACF;
+			productRefGroup = FD1A07751CE5F12B00851ACF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD1A07731CE5F12B00851ACF /* HeroSpin */,
+				FD1A078C1CE5F12B00851ACF /* HeroSpinTests */,
+				FD1A07971CE5F12B00851ACF /* HeroSpinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD1A07721CE5F12B00851ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1A07871CE5F12B00851ACF /* LaunchScreen.storyboard in Resources */,
+				FD1A07841CE5F12B00851ACF /* Assets.xcassets in Resources */,
+				FD1A07821CE5F12B00851ACF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1A078B1CE5F12B00851ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1A07961CE5F12B00851ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD1A07701CE5F12B00851ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1A077F1CE5F12B00851ACF /* ViewController.m in Sources */,
+				FD1A077C1CE5F12B00851ACF /* AppDelegate.m in Sources */,
+				FD1A07791CE5F12B00851ACF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1A07891CE5F12B00851ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1A07921CE5F12B00851ACF /* HeroSpinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1A07941CE5F12B00851ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1A079D1CE5F12B00851ACF /* HeroSpinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD1A078F1CE5F12B00851ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD1A07731CE5F12B00851ACF /* HeroSpin */;
+			targetProxy = FD1A078E1CE5F12B00851ACF /* PBXContainerItemProxy */;
+		};
+		FD1A079A1CE5F12B00851ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD1A07731CE5F12B00851ACF /* HeroSpin */;
+			targetProxy = FD1A07991CE5F12B00851ACF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD1A07801CE5F12B00851ACF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD1A07811CE5F12B00851ACF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD1A07851CE5F12B00851ACF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD1A07861CE5F12B00851ACF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD1A079F1CE5F12B00851ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD1A07A01CE5F12B00851ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD1A07A21CE5F12B00851ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeroSpin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.HeroSpin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD1A07A31CE5F12B00851ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeroSpin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.HeroSpin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD1A07A51CE5F12B00851ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeroSpinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.HeroSpinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroSpin.app/HeroSpin";
+			};
+			name = Debug;
+		};
+		FD1A07A61CE5F12B00851ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeroSpinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.HeroSpinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroSpin.app/HeroSpin";
+			};
+			name = Release;
+		};
+		FD1A07A81CE5F12B00851ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeroSpinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.HeroSpinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeroSpin;
+			};
+			name = Debug;
+		};
+		FD1A07A91CE5F12B00851ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeroSpinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.HeroSpinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeroSpin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD1A076F1CE5F12B00851ACF /* Build configuration list for PBXProject "HeroSpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1A079F1CE5F12B00851ACF /* Debug */,
+				FD1A07A01CE5F12B00851ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD1A07A11CE5F12B00851ACF /* Build configuration list for PBXNativeTarget "HeroSpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1A07A21CE5F12B00851ACF /* Debug */,
+				FD1A07A31CE5F12B00851ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD1A07A41CE5F12B00851ACF /* Build configuration list for PBXNativeTarget "HeroSpinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1A07A51CE5F12B00851ACF /* Debug */,
+				FD1A07A61CE5F12B00851ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD1A07A71CE5F12B00851ACF /* Build configuration list for PBXNativeTarget "HeroSpinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1A07A81CE5F12B00851ACF /* Debug */,
+				FD1A07A91CE5F12B00851ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD1A076C1CE5F12B00851ACF /* Project object */;
+}
