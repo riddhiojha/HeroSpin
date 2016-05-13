@@ -15,6 +15,9 @@
 		FD1A07871CE5F12B00851ACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1A07851CE5F12B00851ACF /* LaunchScreen.storyboard */; };
 		FD1A07921CE5F12B00851ACF /* HeroSpinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A07911CE5F12B00851ACF /* HeroSpinTests.m */; };
 		FD1A079D1CE5F12B00851ACF /* HeroSpinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A079C1CE5F12B00851ACF /* HeroSpinUITests.m */; };
+		FD1A07AD1CE625B100851ACF /* DCComics.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD1A07AB1CE625B100851ACF /* DCComics.mp4 */; };
+		FD1A07AE1CE625B100851ACF /* Marvel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD1A07AC1CE625B100851ACF /* Marvel.mp4 */; };
+		FD1A07B21CE626E200851ACF /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A07B11CE626E200851ACF /* MainCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		FD1A07981CE5F12B00851ACF /* HeroSpinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroSpinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1A079C1CE5F12B00851ACF /* HeroSpinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroSpinUITests.m; sourceTree = "<group>"; };
 		FD1A079E1CE5F12B00851ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD1A07AB1CE625B100851ACF /* DCComics.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DCComics.mp4; sourceTree = "<group>"; };
+		FD1A07AC1CE625B100851ACF /* Marvel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marvel.mp4; sourceTree = "<group>"; };
+		FD1A07B01CE626E200851ACF /* MainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewCell.h; sourceTree = "<group>"; };
+		FD1A07B11CE626E200851ACF /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,7 @@
 				FD1A077B1CE5F12B00851ACF /* AppDelegate.m */,
 				FD1A077D1CE5F12B00851ACF /* ViewController.h */,
 				FD1A077E1CE5F12B00851ACF /* ViewController.m */,
+				FD1A07AF1CE626E200851ACF /* CollectionView */,
 				FD1A07801CE5F12B00851ACF /* Main.storyboard */,
 				FD1A07831CE5F12B00851ACF /* Assets.xcassets */,
 				FD1A07851CE5F12B00851ACF /* LaunchScreen.storyboard */,
@@ -117,6 +125,7 @@
 		FD1A07771CE5F12B00851ACF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD1A07AA1CE625B100851ACF /* Videos */,
 				FD1A07781CE5F12B00851ACF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +147,24 @@
 				FD1A079E1CE5F12B00851ACF /* Info.plist */,
 			);
 			path = HeroSpinUITests;
+			sourceTree = "<group>";
+		};
+		FD1A07AA1CE625B100851ACF /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				FD1A07AB1CE625B100851ACF /* DCComics.mp4 */,
+				FD1A07AC1CE625B100851ACF /* Marvel.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		FD1A07AF1CE626E200851ACF /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				FD1A07B01CE626E200851ACF /* MainCollectionViewCell.h */,
+				FD1A07B11CE626E200851ACF /* MainCollectionViewCell.m */,
+			);
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +270,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD1A07AD1CE625B100851ACF /* DCComics.mp4 in Resources */,
 				FD1A07871CE5F12B00851ACF /* LaunchScreen.storyboard in Resources */,
 				FD1A07841CE5F12B00851ACF /* Assets.xcassets in Resources */,
 				FD1A07821CE5F12B00851ACF /* Main.storyboard in Resources */,
+				FD1A07AE1CE625B100851ACF /* Marvel.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +302,7 @@
 				FD1A077F1CE5F12B00851ACF /* ViewController.m in Sources */,
 				FD1A077C1CE5F12B00851ACF /* AppDelegate.m in Sources */,
 				FD1A07791CE5F12B00851ACF /* main.m in Sources */,
+				FD1A07B21CE626E200851ACF /* MainCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
