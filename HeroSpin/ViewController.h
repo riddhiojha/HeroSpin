@@ -8,10 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol HomeViewDelegate <NSObject>
+
+-(void)setCharacterName : (NSString *)characterName;
+
+@end
+
+
 @interface ViewController : UIViewController<UICollectionViewDelegate, UICollectionViewDataSource>
 {
 }
-
+@property (nonatomic, assign) id <HomeViewDelegate> delegate;
 @property (weak, nonatomic) IBOutlet UICollectionView *mainCollectionView;
 
 @end

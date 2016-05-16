@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Marvel</key>
+	<array>
+		<string>captain america</string>
+		<string>the incredible hulk</string>
+		<string>thor</string>
+		<string>iron man</string>
+		<string>deadpool</string>
+		<string>the wolverine</string>
+		<string>ant man</string>
+		<string>doctor strange</string>
+	</array>
+	<key>DCComics</key>
+	<array>
+		<string>superman</string>
+		<string>batman</string>
+		<string>green lantern</string>
+		<string>the flash</string>
+		<string>wonder woman</string>
+		<string>cyborg</string>
+	</array>
+</dict>
+</plist>

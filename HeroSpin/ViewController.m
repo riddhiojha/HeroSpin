@@ -45,8 +45,28 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
+    NSDictionary *dictionary = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Characters" ofType:@"plist"]];
+    NSString *characterName = @"";
+    if (indexPath.row == 0) {
+        NSArray *marvelArray = [dictionary objectForKey:@"Marvel"];
+        int r = arc4random_uniform((int)marvelArray.count);
+        characterName = marvelArray[r];
+    }
+    else
+    {
+        NSArray *DCArray = [dictionary objectForKey:@"DCComics"];
+        int r = arc4random_uniform((int)DCArray.count);
+        characterName = DCArray[r];
+        
+    }
     DetailViewController *newView = [self.storyboard instantiateViewControllerWithIdentifier:@"detailView"];
+    self.delegate = newView;
     [self.navigationController pushViewController:newView animated:YES];
+    characterName = [characterName stringByReplacingOccurrencesOfString:@" " withString:@"+"];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(setCharacterName:)]) {
+        [self.delegate setCharacterName:characterName];
+    }
+   
     
 }
 

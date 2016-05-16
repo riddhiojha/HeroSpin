@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController<HomeViewDelegate>
 
 @end
