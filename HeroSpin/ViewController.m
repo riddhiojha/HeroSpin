@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DetailViewController.h"
 #import "MainCollectionViewCell.h"
 
 @interface ViewController ()
@@ -40,6 +41,13 @@
     MainCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"mainCollectionCell" forIndexPath:indexPath];
     [cell configureWithURL:dataArray[indexPath.row]];
     return cell;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    DetailViewController *newView = [self.storyboard instantiateViewControllerWithIdentifier:@"detailView"];
+    [self.navigationController pushViewController:newView animated:YES];
+    
 }
 
 
