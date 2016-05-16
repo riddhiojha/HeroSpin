@@ -18,6 +18,7 @@
 		FD1A07AD1CE625B100851ACF /* DCComics.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD1A07AB1CE625B100851ACF /* DCComics.mp4 */; };
 		FD1A07AE1CE625B100851ACF /* Marvel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FD1A07AC1CE625B100851ACF /* Marvel.mp4 */; };
 		FD1A07B21CE626E200851ACF /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A07B11CE626E200851ACF /* MainCollectionViewCell.m */; };
+		FDF3768C1CE8734E002800C8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3768B1CE8734E002800C8 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		FD1A07AC1CE625B100851ACF /* Marvel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marvel.mp4; sourceTree = "<group>"; };
 		FD1A07B01CE626E200851ACF /* MainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewCell.h; sourceTree = "<group>"; };
 		FD1A07B11CE626E200851ACF /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewCell.m; sourceTree = "<group>"; };
+		FDF3768A1CE8734E002800C8 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FDF3768B1CE8734E002800C8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				FD1A077B1CE5F12B00851ACF /* AppDelegate.m */,
 				FD1A077D1CE5F12B00851ACF /* ViewController.h */,
 				FD1A077E1CE5F12B00851ACF /* ViewController.m */,
+				FDF3768A1CE8734E002800C8 /* DetailViewController.h */,
+				FDF3768B1CE8734E002800C8 /* DetailViewController.m */,
 				FD1A07AF1CE626E200851ACF /* CollectionView */,
 				FD1A07801CE5F12B00851ACF /* Main.storyboard */,
 				FD1A07831CE5F12B00851ACF /* Assets.xcassets */,
@@ -299,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF3768C1CE8734E002800C8 /* DetailViewController.m in Sources */,
 				FD1A077F1CE5F12B00851ACF /* ViewController.m in Sources */,
 				FD1A077C1CE5F12B00851ACF /* AppDelegate.m in Sources */,
 				FD1A07791CE5F12B00851ACF /* main.m in Sources */,
@@ -526,6 +532,7 @@
 				FD1A07A31CE5F12B00851ACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD1A07A41CE5F12B00851ACF /* Build configuration list for PBXNativeTarget "HeroSpinTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +541,7 @@
 				FD1A07A61CE5F12B00851ACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD1A07A71CE5F12B00851ACF /* Build configuration list for PBXNativeTarget "HeroSpinUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +550,7 @@
 				FD1A07A91CE5F12B00851ACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
