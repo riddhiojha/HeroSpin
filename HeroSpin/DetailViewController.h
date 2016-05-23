@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ViewController.h"
+#import "SpinnerViewController.h"
 
-@interface DetailViewController : UIViewController<HomeViewDelegate>
+@interface DetailViewController : UIViewController<SpinnerViewDelegate>
 
 @end

@@ -9,28 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "SMRotaryProtocol.h"
 
-
-@interface SpinnerViewController : UIViewController<SMRotaryProtocol>
-
+@protocol SpinnerViewDelegate <NSObject>
+-(void)setCharacterName : (NSString *)characterName;
 @end
 
 
-/*
- //
- //  SpinnerViewController.h
- //  HeroSpin
- //
- //  Created by Riddhi Ojha on 5/19/16.
- //  Copyright © 2016 Riddhi Ojha. All rights reserved.
- //
- 
- #import <UIKit/UIKit.h>
- #import "SMWheelControl.h"
- 
- 
- @interface SpinnerViewController : UIViewController<SMWheelControlDelegate, SMWheelControlDataSource>
- @property (nonatomic, weak) IBOutlet UILabel *valueLabel;
- @property (nonatomic, weak) IBOutlet UIView *wheelContainer;
- @end
+@interface SpinnerViewController : UIViewController<SMRotaryProtocol>
+@property (nonatomic, assign) id <SpinnerViewDelegate> delegate;
+@property (nonatomic, assign) int wheelSectionsCount;
 
-*/
+
+@end

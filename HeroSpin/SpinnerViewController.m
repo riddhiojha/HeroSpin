@@ -7,12 +7,15 @@
 //
 
 #import "SpinnerViewController.h"
+#import "DetailViewController.h"
 #import "SMRotaryWheel.h"
 
 @interface SpinnerViewController ()
 @property (nonatomic, retain) SMRotaryWheel *wheel;
+@property (weak, nonatomic) NSString *characterName;
 @property (weak, nonatomic) IBOutlet UIView *mainSpinnerView;
 @property (weak, nonatomic) IBOutlet UIImageView *bgImageView;
+
 @end
 
 @implementation SpinnerViewController
@@ -24,16 +27,17 @@
     CGRect screenRect = [[UIScreen mainScreen] bounds];
     CGFloat screenWidth = screenRect.size.width;
     CGFloat screenHeight = screenRect.size.height;
+    self.characterName = @"";
     self.wheel = [[SMRotaryWheel alloc] initWithFrame:CGRectMake(0, 0, screenWidth, screenWidth)
                                                     andDelegate:self
-                                                   withSections:8];
+                                                   withSections:self.wheelSectionsCount];
     self.wheel.center = CGPointMake(screenWidth/2, screenHeight/2);
     [self.mainSpinnerView addSubview:self.wheel];
     [self spinTheWheel];
 }
 
 - (void) wheelDidChangeValue:(NSString *)newValue {
-//    self.valueLabel.text = newValue;
+    self.characterName = newValue;
     
 }
 
@@ -66,5 +70,12 @@
 }
 
 - (IBAction)gotoDetails:(id)sender {
+    DetailViewController *newView = [self.storyboard instantiateViewControllerWithIdentifier:@"detailView"];
+    self.delegate = newView;
+    [self.navigationController pushViewController:newView animated:YES];
+    self.characterName = [self.characterName stringByReplacingOccurrencesOfString:@" " withString:@"+"];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(setCharacterName:)]) {
+        [self.delegate setCharacterName:self.characterName];
+    }
 }
 @end
