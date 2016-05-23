@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *actorsLabel;
 @property (weak, nonatomic) IBOutlet UILabel *writerLabel;
 @property (weak, nonatomic) IBOutlet UITextView *plotTextView;
+@property (nonatomic) CGRect framePoster;
 @end
 
 static NSString * const BaseURLString = @"http://www.omdbapi.com/?t=";
@@ -38,6 +39,7 @@ static NSString * const BaseURLString = @"http://www.omdbapi.com/?t=";
                                       NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
                                       NSLog(@"%@", json);
                                       dispatch_async(dispatch_get_main_queue(), ^{
+                                          self.framePoster = self.posterImageView.frame;
                                           self.titleLabel.text = json[@"Title"];
                                           self.genreLabel.text = json[@"Genre"];
                                           self.directorLabel.text = json[@"Director"];
@@ -54,6 +56,24 @@ static NSString * const BaseURLString = @"http://www.omdbapi.com/?t=";
 #pragma mark - TapGestureRecogniser
 - (IBAction)handleImageTap:(UIGestureRecognizer *)sender
 {
-    self.posterImageView.frame=CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height);
+    if (self.posterImageView.frame.size.height == self.framePoster.size.height) {
+        [UIView transitionWithView:self.posterImageView
+                          duration:0.5
+                           options:UIViewAnimationOptionCurveEaseInOut //any animation
+                        animations:^ {
+                            self.posterImageView.frame=CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height);
+                        }
+                        completion:nil];
+    }
+    else
+    {
+        [UIView transitionWithView:self.posterImageView
+                          duration:0.5
+                           options:UIViewAnimationOptionCurveEaseInOut //any animation
+                        animations:^ {
+                            self.posterImageView.frame=CGRectMake(0,0,self.framePoster.size.width,self.framePoster.size.height);
+                        }
+                        completion:nil];
+    }
 }
 @end

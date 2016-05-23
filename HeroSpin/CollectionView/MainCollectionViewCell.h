@@ -10,6 +10,5 @@
 
 
 @interface MainCollectionViewCell : UICollectionViewCell
-
 - (void)configureWithURL:(NSURL *)url;
 @end

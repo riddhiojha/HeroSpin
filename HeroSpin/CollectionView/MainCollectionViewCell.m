@@ -27,6 +27,7 @@
                                                    self.videoCollectionView.frame.size.height)];
     AVPlayerItem* item=[[AVPlayerItem alloc]initWithURL:url];
     playerViewController.player=[AVPlayer playerWithPlayerItem:item];
+    playerViewController.showsPlaybackControls = false;
     playerViewController.player.muted = YES;
     playerViewController.view.contentMode = UIViewContentModeScaleAspectFill;
     playerViewController.player.actionAtItemEnd = AVPlayerActionAtItemEndNone;
