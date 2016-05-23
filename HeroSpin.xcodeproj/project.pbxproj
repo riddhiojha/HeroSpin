@@ -10,9 +10,7 @@
 		FD06F7DA1CF1DD7D00AD2D8E /* SMRotaryWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD06F7D91CF1DD7D00AD2D8E /* SMRotaryWheel.m */; };
 		FD06F7DE1CF1DFCA00AD2D8E /* SMCLove.m in Sources */ = {isa = PBXBuildFile; fileRef = FD06F7DD1CF1DFCA00AD2D8E /* SMCLove.m */; };
 		FD06F7EB1CF1DFF000AD2D8E /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FD06F7E01CF1DFF000AD2D8E /* bg.png */; };
-		FD06F7EC1CF1DFF000AD2D8E /* centerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FD06F7E11CF1DFF000AD2D8E /* centerButton.png */; };
 		FD06F7F51CF1DFF000AD2D8E /* segment.png in Resources */ = {isa = PBXBuildFile; fileRef = FD06F7EA1CF1DFF000AD2D8E /* segment.png */; };
-		FD06F7FB1CF1E3CA00AD2D8E /* SMWheelControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FD06F7F81CF1E3CA00AD2D8E /* SMWheelControl.m */; };
 		FD06F7FE1CF31C8400AD2D8E /* DCComicsWallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD06F7FC1CF31C8400AD2D8E /* DCComicsWallpaper.jpg */; };
 		FD06F7FF1CF31C8400AD2D8E /* MarvelBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD06F7FD1CF31C8400AD2D8E /* MarvelBG.jpg */; };
 		FD1A07791CE5F12B00851ACF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A07781CE5F12B00851ACF /* main.m */; };
@@ -55,12 +53,7 @@
 		FD06F7DC1CF1DFCA00AD2D8E /* SMCLove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCLove.h; sourceTree = "<group>"; };
 		FD06F7DD1CF1DFCA00AD2D8E /* SMCLove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCLove.m; sourceTree = "<group>"; };
 		FD06F7E01CF1DFF000AD2D8E /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
-		FD06F7E11CF1DFF000AD2D8E /* centerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = centerButton.png; sourceTree = "<group>"; };
 		FD06F7EA1CF1DFF000AD2D8E /* segment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment.png; sourceTree = "<group>"; };
-		FD06F7F71CF1E3CA00AD2D8E /* SMWheelControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMWheelControl.h; sourceTree = "<group>"; };
-		FD06F7F81CF1E3CA00AD2D8E /* SMWheelControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMWheelControl.m; sourceTree = "<group>"; };
-		FD06F7F91CF1E3CA00AD2D8E /* SMWheelControlDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMWheelControlDataSource.h; sourceTree = "<group>"; };
-		FD06F7FA1CF1E3CA00AD2D8E /* SMWheelControlDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMWheelControlDelegate.h; sourceTree = "<group>"; };
 		FD06F7FC1CF31C8400AD2D8E /* DCComicsWallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DCComicsWallpaper.jpg; sourceTree = "<group>"; };
 		FD06F7FD1CF31C8400AD2D8E /* MarvelBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MarvelBG.jpg; sourceTree = "<group>"; };
 		FD1A07741CE5F12B00851ACF /* HeroSpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroSpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,7 +111,6 @@
 		FD06F7D71CF1DD7D00AD2D8E /* SpinnerWheel */ = {
 			isa = PBXGroup;
 			children = (
-				FD06F7F61CF1E3CA00AD2D8E /* SMWheelControl */,
 				FD06F7DF1CF1DFF000AD2D8E /* assets */,
 				FD06F7DB1CF1DF5A00AD2D8E /* SMRotaryProtocol.h */,
 				FD06F7DC1CF1DFCA00AD2D8E /* SMCLove.h */,
@@ -135,22 +127,9 @@
 				FD06F7FC1CF31C8400AD2D8E /* DCComicsWallpaper.jpg */,
 				FD06F7FD1CF31C8400AD2D8E /* MarvelBG.jpg */,
 				FD06F7E01CF1DFF000AD2D8E /* bg.png */,
-				FD06F7E11CF1DFF000AD2D8E /* centerButton.png */,
 				FD06F7EA1CF1DFF000AD2D8E /* segment.png */,
 			);
 			path = assets;
-			sourceTree = "<group>";
-		};
-		FD06F7F61CF1E3CA00AD2D8E /* SMWheelControl */ = {
-			isa = PBXGroup;
-			children = (
-				FD06F7F71CF1E3CA00AD2D8E /* SMWheelControl.h */,
-				FD06F7F81CF1E3CA00AD2D8E /* SMWheelControl.m */,
-				FD06F7F91CF1E3CA00AD2D8E /* SMWheelControlDataSource.h */,
-				FD06F7FA1CF1E3CA00AD2D8E /* SMWheelControlDelegate.h */,
-			);
-			name = SMWheelControl;
-			path = assets/SMWheelControl;
 			sourceTree = "<group>";
 		};
 		FD1A076B1CE5F12B00851ACF = {
@@ -344,7 +323,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD06F7EC1CF1DFF000AD2D8E /* centerButton.png in Resources */,
 				FD1A07AD1CE625B100851ACF /* DCComics.mp4 in Resources */,
 				FD06F7FF1CF31C8400AD2D8E /* MarvelBG.jpg in Resources */,
 				FD1A07871CE5F12B00851ACF /* LaunchScreen.storyboard in Resources */,
@@ -379,7 +357,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD06F7FB1CF1E3CA00AD2D8E /* SMWheelControl.m in Sources */,
 				FDF3768C1CE8734E002800C8 /* DetailViewController.m in Sources */,
 				FD06F7DA1CF1DD7D00AD2D8E /* SMRotaryWheel.m in Sources */,
 				FD1A077F1CE5F12B00851ACF /* ViewController.m in Sources */,

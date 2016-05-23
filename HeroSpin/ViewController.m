@@ -19,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"Marvel" withExtension:@"mp4"];
     NSURL *url2 = [[NSBundle mainBundle] URLForResource:@"DCComics" withExtension:@"mp4"];
     dataArray = [[NSMutableArray alloc] initWithObjects:url, url2, nil];
