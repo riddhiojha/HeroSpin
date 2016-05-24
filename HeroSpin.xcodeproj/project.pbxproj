@@ -13,6 +13,7 @@
 		FD06F7F51CF1DFF000AD2D8E /* segment.png in Resources */ = {isa = PBXBuildFile; fileRef = FD06F7EA1CF1DFF000AD2D8E /* segment.png */; };
 		FD06F7FE1CF31C8400AD2D8E /* DCComicsWallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD06F7FC1CF31C8400AD2D8E /* DCComicsWallpaper.jpg */; };
 		FD06F7FF1CF31C8400AD2D8E /* MarvelBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD06F7FD1CF31C8400AD2D8E /* MarvelBG.jpg */; };
+		FD06F8011CF4B14900AD2D8E /* MarvelBGBlurred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD06F8001CF4B14900AD2D8E /* MarvelBGBlurred.jpg */; };
 		FD1A07791CE5F12B00851ACF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A07781CE5F12B00851ACF /* main.m */; };
 		FD1A077C1CE5F12B00851ACF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A077B1CE5F12B00851ACF /* AppDelegate.m */; };
 		FD1A077F1CE5F12B00851ACF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1A077E1CE5F12B00851ACF /* ViewController.m */; };
@@ -56,6 +57,7 @@
 		FD06F7EA1CF1DFF000AD2D8E /* segment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment.png; sourceTree = "<group>"; };
 		FD06F7FC1CF31C8400AD2D8E /* DCComicsWallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DCComicsWallpaper.jpg; sourceTree = "<group>"; };
 		FD06F7FD1CF31C8400AD2D8E /* MarvelBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MarvelBG.jpg; sourceTree = "<group>"; };
+		FD06F8001CF4B14900AD2D8E /* MarvelBGBlurred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MarvelBGBlurred.jpg; sourceTree = "<group>"; };
 		FD1A07741CE5F12B00851ACF /* HeroSpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroSpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1A07781CE5F12B00851ACF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD1A077A1CE5F12B00851ACF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				FD06F7FC1CF31C8400AD2D8E /* DCComicsWallpaper.jpg */,
 				FD06F7FD1CF31C8400AD2D8E /* MarvelBG.jpg */,
+				FD06F8001CF4B14900AD2D8E /* MarvelBGBlurred.jpg */,
 				FD06F7E01CF1DFF000AD2D8E /* bg.png */,
 				FD06F7EA1CF1DFF000AD2D8E /* segment.png */,
 			);
@@ -331,6 +334,7 @@
 				FD06F7EB1CF1DFF000AD2D8E /* bg.png in Resources */,
 				FD1A07821CE5F12B00851ACF /* Main.storyboard in Resources */,
 				FD06F7FE1CF31C8400AD2D8E /* DCComicsWallpaper.jpg in Resources */,
+				FD06F8011CF4B14900AD2D8E /* MarvelBGBlurred.jpg in Resources */,
 				FD1A07AE1CE625B100851ACF /* Marvel.mp4 in Resources */,
 				FD06F7F51CF1DFF000AD2D8E /* segment.png in Resources */,
 			);

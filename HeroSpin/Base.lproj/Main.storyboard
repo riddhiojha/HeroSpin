@@ -18,7 +18,7 @@
                     <view key="view" contentMode="scaleToFill" id="mSQ-7d-YSf">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MarvelBG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="apX-II-lhr">
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MarvelBGBlurred.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="apX-II-lhr">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -71,7 +71,7 @@
                                 </variation>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="apX-II-lhr"/>
@@ -540,6 +540,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="MarvelBG.jpg" width="236" height="418"/>
+        <image name="MarvelBGBlurred.jpg" width="236" height="418"/>
     </resources>
 </document>
